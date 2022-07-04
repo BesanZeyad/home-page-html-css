@@ -1,0 +1,44 @@
+body {
+    background-image: url("background.svg");
+    background-color: #cccccc;
+   }
+
+header{
+    display: flex;
+    margin: 1em 2em 1em;
+    justify-content: space-between;
+}
+
+header img{
+    display: inline-block;
+}
+
+header nav{
+    width: 50%;
+}
+
+header nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header ul il :hover{
+    opacity: 0.3;
+}
+h1 { 
+    display: inline-block;
+    font-size: 4em;
+    margin-top: 0.67em;
+    margin-bottom: 1.00em;
+    margin-left: 2.00em;
+    margin-right: 0;
+    font-weight: bold;
+  }
+  
+p{
+    
+    font-size: 1.00em;
+    margin-left: 7.00em;
+    
+}
